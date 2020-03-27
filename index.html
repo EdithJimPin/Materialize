@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col s12"></div>
+            <div class="col s12 m8 l6"></div>
+            <div class="card-panel teal lighten-2 z-depth-0 col s6 offset-s4"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quisquam officia ipsam laudantium dolorum nemo omnis atque possimus at obcaecati minus optio, numquam, libero odio mollitia laborum error qui dolore.</div>
+        </div>
+        <div class="collection">
+            <span class="new badge">4</span>
+        </div>
+        <h1>Insignias</h1>
+        <div>
+            <span class="new badge">5</span>
+            <span class="new badge red">5</span>
+            <span class="new badge blue">5</span>
+            <span class="new badge teal">5</span>
+            <span class="new badge pink">5</span>
+            <span class="new badge pink lighten-3">5</span>
+            <span class="new badge pink darken-4">5</span>
+            <span class="new badge pink accent-2">5</span>
+            <span class="badge">5</span>
+        </div>
+        <div>
+            <span class="new badge" data-badge-caption="Hola mundo, este es un título insertado">4</span>
+        </div>
+        <h1>Botones</h1>
+        <a class="waves-effect waves-light btn">button</a> <!--waves-effect es para dar el efecto y light es para que sea claro-->
+        <a class="waves-effect waves-yellow darken-4 btn"><i class="material-icons left">cloud</i>button</a>
+        <a class="waves-effect waves-red darken-4 btn"><i class="material-icons right">cloud</i>button</a>
+        <a class="btn-floating btn-large waves-effect waves-light blue cian-2"><i class="material-icons">face</i></a>
+        <a class="waves-effect waves-teal btn-flat">Button</a>
+        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+            <i class="material-icons right">send</i>
+        </button><!--Se usa un boton con un tag submit-->
+        <h1>Navegadores</h1> <!--La clase breadcrumb le agrega el separador-->
+        <nav>
+            <div class="nav-wrapper blue lighten-2">
+                <div class="col s12">
+                    <a href="#!" class="breadcrumb waves-effect waves-light btn z-depth-0">First</a>
+                    <a href="#!" class=" tab breadcrumb">Second</a>
+                    <a href="#!" class="breadcrumb">Third</a>
+                </div>
+            </div>
+        </nav>
+        <h1>Cards</h1>
+        <div class="row">
+            <div class="col s6 card blue-grey darken-1">
+                <div class="card-content white-text">
+                    <span class="card-title">Tarjeta simple con links</span>
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#">Link1</a>
+                    <a href="#">Link2</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s6 card">
+                <div class="card-image">
+                    <img src="https://i.ytimg.com/vi/APfmHh-cY8A/maxresdefault.jpg">
+                    <span class="card-title">Tarjeta con imagen y boton circular</span>
+                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                </div>
+                <div class="card-content">
+                    <p>Este texto va dentro de un card-content. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#">card-action</a>
+                </div>
+            </div> 
+            <!--Le colocamos un offset para que se haga una columna a lado-->
+            <div class="col s5 offset-s1">
+                <div class="card">
+                    <div class="card-image">
+                      <img src="images/img_rebecaaaa.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Tarjeta con contenido oculto<i class="material-icons right">more_vert</i></span>
+                      <p><a href="#">This is a link</a></p>
+                    </div>
+                    <!--Reveal sirve para mostrar el contenido de la tarjeta-->
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Título oculto<i class="material-icons right">close</i></span>
+                      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        <div class="row">
+            <div class="col s5 offset-s1">
+                <div class="card sticky-action">
+                    <div class="card-image">
+                      <img src="images/img_rebecaaaa.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Tarjeta con contenido oculto 2<i class="material-icons right">more_vert</i></span>
+                      <p><a href="#">This is a link</a></p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Enlace con efecto para card</a>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Titulo oculto 2<i class="material-icons right">close</i></span>
+                      <p>Esta tarjeta es diferente a la anterior por que mustra el contenido oculto pero deja al descubierto el
+                          enlace con efecto, se le agregan dos clases extras una al principio donde esta la clase card se le agrega
+                          stick-action y una antes de este contenido que es en la clase card-reveal.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s3 offset-s1">
+                <div class="card-small light-green darken-2">
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-tabs">
+                        <ul class="tabs tabs-fixed-width lime lighten-2">
+                        <li class="tab light-green darken-2"><a class="active" href="#test4">Test 1</a></li>
+                        <li class="tab"><a class="active" href="#test5">Test 2</a></li>
+                        <li class="tab"><a class="active" href="#test6">Test 3</a></li>
+                        </ul>
+                    </div>
+                    <div class="card-content grey lighten-4">
+                        <div id="test4">Test 1</div>
+                        <div id="test5">Test 2</div>
+                        <div id="test6">Test 3</div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>      
+    </div>
+    <script src="node_modules/materialize-css/dist/js/materialize.js"></script>
+</body>
+</html>
